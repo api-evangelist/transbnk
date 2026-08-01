@@ -1,0 +1,49 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of apis.yml + product hosts
+# Probed the standard /.well-known/ discovery paths plus common spec locations
+# across every TransBnk / TBX / TrustHub host. No public well-known documents,
+# OpenAPI, or llms.txt are published — the API surface is partner-gated behind
+# the API Hub login (https://apihub.trusthub.in/). Absence is a valid result.
+probes:
+- host: tbx.co.in
+  results:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+  - {path: /openapi.json, status: 404}
+  - {path: /swagger.json, status: 404}
+- host: transbnk.co.in
+  results:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+  - {path: /openapi.json, status: 404}
+  - {path: /swagger.json, status: 404}
+- host: apihub.trusthub.in
+  results:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+  - {path: /openapi.json, status: 404}
+  - {path: /swagger.json, status: 404}
+- host: trusthub.in
+  results:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+  - {path: /openapi.json, status: 404}
+  - {path: /swagger.json, status: 404}
+files: []

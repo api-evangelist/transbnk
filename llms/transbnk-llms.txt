@@ -1,0 +1,36 @@
+# TransBnk (TBX)
+
+> TransBnk — rebranded as TBX — is an Indian open-finance and transaction-banking
+> infrastructure company (founded 2022, Mumbai). It provides banks, enterprises,
+> fintechs, corporates, and NBFCs with the platforms, APIs, and connected
+> workflows behind corporate banking: mandate management, escrow flows, virtual
+> accounts, reconciliation, lending acceleration, and cash/treasury management.
+> The company reports 25+ bank partnerships, 200+ APIs extended, 100+ BFSI
+> clients, and 50M+ transactions processed.
+
+## Products
+- TxB Hub — transaction banking platform (mandates, escrow, reconciliation).
+- TrustHub — core banking / trust-and-escrow platform.
+- API Hub — the API integration surface for partner banks and fintechs (login-gated).
+
+## Segments
+- For Banks: modernized transaction banking with mandate management, escrow flows, and reconciliation.
+- For Lenders: lending acceleration via onboarding, automated escrows, and repayment intelligence.
+- For Corporates: unified cash, treasury, and payment management.
+
+## Developer
+- API Hub (partner-gated): https://apihub.trusthub.in/
+- Login: https://trusthub.in/login
+
+## Company
+- Website: https://www.tbx.co.in/
+- About: https://www.tbx.co.in/about-us
+- Contact: https://www.tbx.co.in/contact-us
+- Blog: https://www.tbx.co.in/blogs
+- News & Media: https://www.tbx.co.in/news-and-media
+- Events: https://www.tbx.co.in/events
+
+## Notes
+- No public OpenAPI, llms.txt, or /.well-known/ discovery documents are published;
+  the API surface is available to onboarded partners via the API Hub login.
+- Backed by Bessemer Venture Partners, 8i Ventures, Accion Venture Lab, and others.

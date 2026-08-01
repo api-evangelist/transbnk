@@ -1,8 +1,26 @@
 aid: transbnk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transbnk.png
 name: Transbnk
-description: 'Transbnk is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'TransBnk — rebranded as TBX — is an Indian open-finance and transaction-banking
+  infrastructure company founded in 2022 and headquartered in Mumbai. It gives banks,
+  enterprises, fintechs, corporates, and NBFCs the platforms, APIs, and connected
+  workflows behind corporate banking: mandate management, escrow flows, virtual accounts,
+  reconciliation, lending acceleration, and cash and treasury management. TransBnk
+  reports partnerships with 25+ banks, 200+ APIs extended, 100+ BFSI clients, and
+  50M+ transactions processed. Products include TxB Hub (transaction banking),
+  TrustHub (core banking and escrow), and the API Hub integration surface. The
+  company is backed by Bessemer Venture Partners, 8i Ventures, and Accion Venture Lab.'
 url: https://raw.githubusercontent.com/api-evangelist/transbnk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Transaction Banking
+- Corporate Banking
+- Open Finance
+- Embedded Finance
+- Escrow
+- Payments
+- Banking Infrastructure
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://transbnk.co.in/
+  url: https://www.tbx.co.in/
+- type: DeveloperPortal
+  url: https://apihub.trusthub.in/
+- type: Login
+  url: https://trusthub.in/login
+- type: Blog
+  url: https://www.tbx.co.in/blogs
+- type: Support
+  url: https://www.tbx.co.in/contact-us
+- type: About
+  url: https://www.tbx.co.in/about-us
+- type: News
+  url: https://www.tbx.co.in/news-and-media
+- type: DomainSecurity
+  url: security/transbnk-domain-security.yml
+- type: LLMsTxt
+  url: llms/transbnk-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
