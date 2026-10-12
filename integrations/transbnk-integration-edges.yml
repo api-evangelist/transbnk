@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/transbnk/integrations
+- https://n8n.io/integrations/transbnk/
+- https://composio.dev/toolkits/transbnk
+- https://monid.ai/tools/transbnk
+checked:
+- https://composio.dev/toolkits/transbnk
+- https://monid.ai/tools/transbnk
+- https://n8n.io/integrations/transbnk/
+- https://zapier.com/apps/transbnk/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
